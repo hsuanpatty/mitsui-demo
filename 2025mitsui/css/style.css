@@ -403,25 +403,7 @@ p {
 
 @media (min-width: 1400px) { 
   .mitsui-title img {
-    width: 75%;
-  } 
-}
-
-@media (min-width: 1500px) { 
-  .mitsui-title img {
-    width: 80%;
-  } 
-}
-
-@media (min-width: 1700px) { 
-  .mitsui-title img {
-    width: 85%;
-  } 
-}
-
-@media (min-width: 1800px) { 
-  .mitsui-title img {
-    width: 95%;
+    width: 100%;
   } 
 }
 

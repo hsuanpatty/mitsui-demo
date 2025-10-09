@@ -405,7 +405,7 @@ p {
 
 /* 三井海洋富士號 */
 .mitsu-container {
-  padding: 4rem 6px 0;
+  padding: 4rem 8px 0;
 }
 
 .mitsu-container h1 {
@@ -418,7 +418,6 @@ p {
   	font:  18px  GenKiMin-R ;
     color: var(--blue);
     text-align: center;
-    padding-top: 5px;
 }
 
 .mitsu-group {
@@ -494,6 +493,25 @@ p {
   z-index: 100;
 }
 
+@media (min-width: 501px) { 
+  .mitsu-container {
+    padding: 4rem 60px 0;
+  }
+  .mitsu-card-img img {
+     max-width: 115%;
+  } 
+}
+
+@media (min-width: 768px) { 
+  .mitsu-container {
+    padding: 4rem 10px 0;
+  }
+
+  .mitsu-card-img img {
+     max-width: 111%;
+  } 
+}
+
 @media (min-width: 1400px) { 
   .mitsu-container {
     padding: 4rem 40px 0;
@@ -510,22 +528,30 @@ p {
 
   .mitsu-container h3 {
     font: 18px GenKiMin-R;
-    padding-top: 5px;
   }
 }
 
 @media (max-width: 575.98px) { 
-   .mitsu-container {
+   /* .mitsu-container {
     padding: 2rem 3px 0;
-  }
+  } */
 
   .mitsu-container h1 {
-      font: 25px GenKiMin-R;
+      font: 22px GenKiMin-R;
   }
 
   .mitsu-container h3 {
     font: 16px GenKiMin-R;
     padding-top: 5px;
+  }
+
+  .mitsu-container {
+    padding: 1.5rem 8px 0;
+  }
+
+  .mitsu-group {
+    padding: 20px 0 50px; 
+    gap: 2rem;
   }
 }
 
@@ -551,7 +577,7 @@ p {
     text-align:justify;
 
     overflow: hidden;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
   }
@@ -576,6 +602,26 @@ p {
     letter-spacing: 0;
   }
 }
+
+@media (max-width: 320.98px) { 
+  .card-content {
+    padding: 1rem 0.5rem 1.5rem;
+  }
+
+  .card-content  p {
+   font: 14px  GenKiMin-R;
+  }
+
+  .card-d h3 {
+    font: 13px GenKiMin-R;
+    letter-spacing: 0.01rem;
+  }
+
+  .mitsu-container {
+    padding: 1.5rem 0 0;
+  }
+}
+
 
 
 .card-d {
@@ -667,16 +713,23 @@ p {
 
 @media (max-width: 400.98px) { 
   .more-button a {
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 15px;
   }
 }
 
 
 @media (max-width: 350.98px) { 
   .card-d h3 {
-    font: 16px GenKiMin-R;
+    font: 15px GenKiMin-R;
+  }
+
+   .more-button a {
+    font-size: 14px;
   }
 }
+
+
 
 
 

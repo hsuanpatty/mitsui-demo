@@ -548,9 +548,6 @@ p {
 }
 
 @media (max-width: 575.98px) { 
-   /* .mitsu-container {
-    padding: 2rem 3px 0;
-  } */
 
   .mitsu-container h1 {
       font: 22px GenKiMin-R;
@@ -655,7 +652,7 @@ p {
   text-align: left;
 }
 
-.more-button a.more-a {
+.more-button .more-a {
   font: 16px  GenKiMin-R ;
   display: inline-block;
   padding: 0.5rem 1.2rem;
@@ -669,7 +666,7 @@ p {
   overflow: hidden;
   z-index: 1;
 }
-.more-button a.more-a:after {
+.more-button .more-a:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -680,7 +677,7 @@ p {
   border-radius: 10rem;
   z-index: -2;
 }
-.more-button a:before {
+.more-button .more-a:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -692,10 +689,10 @@ p {
   border-radius: 10rem;
   z-index: -1;
 }
-.more-button a:hover {
+.more-button .more-a:hover {
   color: var(--white);
 }
-.more-button a:hover:before {
+.more-button .more-a:hover:before {
   width: 100%;
 }
 

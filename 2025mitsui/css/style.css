@@ -347,7 +347,6 @@ p {
     left: 50%;
     top: 25%;
     transform: translate(-50%, -50%);
-    /* width: 30%; */
 }
 
 .mitsui-title img {
@@ -365,7 +364,7 @@ p {
 @media (max-width: 1399.98px) { 
 
   .mitsui-title img {
-    width: 65%;
+    width: 90%;
   } 
 
   .logo-w {
@@ -411,6 +410,10 @@ p {
   .mitsui-title img {
     width: 100%;
   } 
+
+  .banner .mitsui-title {
+    width: 30%;
+  }
 }
 
 

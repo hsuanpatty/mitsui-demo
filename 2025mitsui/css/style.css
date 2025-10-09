@@ -514,7 +514,7 @@ p {
     padding: 4rem 60px 0;
   }
   .mitsu-card-img img {
-     max-width: 115%;
+     max-width: 111%;
   } 
 }
 
@@ -524,7 +524,7 @@ p {
   }
 
   .mitsu-card-img img {
-     max-width: 111%;
+     max-width: 130%;
   } 
 }
 
@@ -545,7 +545,26 @@ p {
   .mitsu-container h3 {
     font: 18px GenKiMin-R;
   }
+  
 }
+
+@media (max-width: 1299.98px) { 
+
+  .mitsu-container h1 {
+      font: 28px GenKiMin-R;
+  }
+
+  .mitsu-container h3 {
+    font: 18px GenKiMin-R;
+  }
+
+  .mitsu-card-img img{
+    width: 100%;
+  }
+  
+}
+
+
 
 @media (max-width: 575.98px) { 
 

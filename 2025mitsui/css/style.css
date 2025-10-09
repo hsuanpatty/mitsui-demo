@@ -666,6 +666,7 @@ p {
   overflow: hidden;
   z-index: 1;
 }
+
 .more-button .more-a:after {
   content: "";
   position: absolute;
@@ -706,8 +707,33 @@ p {
 
 @media (min-width: 992px) { 
   .mitsu-group {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .card-content  h1 {
+    font: 17px  GenKiMin-R;
+    letter-spacing: -0.01rem;
+  }
+
+  .card-d h3 {
+    font: 16px GenKiMin-R;
+  }
+}
+
+@media (min-width: 1200px) { 
+    .mitsu-group {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+  }
+
+  .card-content  h1 {
+    font: 19px  GenKiMin-R;
+    letter-spacing: 0.05rem;
+  }
+
+   .card-d h3 {
+    font: 17px GenKiMin-R;
   }
 }
 
@@ -717,17 +743,22 @@ p {
   }
 }
 
+@media (max-width: 1399.98px) { 
+ .more-button .more-a {
+    padding: 0.5rem 0.5rem;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1299.98px) { 
+  .card-d {
+    padding-top: 3px;
+  }
+}
 
 @media (max-width: 575.98px) { 
   .card-d {
     padding-top: 6px;
-  }
-}
-
-@media (max-width: 400.98px) { 
-  .more-button a {
-    padding: 0.5rem 0.5rem;
-    font-size: 15px;
   }
 }
 
@@ -737,7 +768,7 @@ p {
     font: 15px GenKiMin-R;
   }
 
-   .more-button a {
+  .more-button .more-a {
     font-size: 14px;
   }
 }

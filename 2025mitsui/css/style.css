@@ -369,10 +369,16 @@ p {
   }
 }
 
-@media (max-width: 1199.98px) { 
-  .mitsui-title img {
+@media (max-width: 1299.98px) { 
+
+   .mitsui-title img {
     width: 65%;
   } 
+
+  .logo-w {
+    width: 60%;
+    padding-top: 2px;
+  }
 }
 
 @media (max-width: 575.98px) {

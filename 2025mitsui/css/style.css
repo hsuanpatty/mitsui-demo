@@ -347,8 +347,14 @@ p {
     left: 50%;
     top: 25%;
     transform: translate(-50%, -50%);
-    width: 30%;
+    /* width: 30%; */
 }
+
+.mitsui-title img {
+  width: 80%;
+  display: block;
+  margin: auto;
+} 
 
 .logo-w {
   width: 80%;
@@ -358,11 +364,16 @@ p {
 
 @media (max-width: 1399.98px) { 
   .logo-w {
-    width: 75%;
+    width: 60%;
     padding-top: 2px;
   }
 }
 
+@media (max-width: 1199.98px) { 
+  .mitsui-title img {
+    width: 65%;
+  } 
+}
 
 @media (max-width: 575.98px) {
   .banner .mitsui-title {
@@ -370,10 +381,9 @@ p {
     width: 75%;
   }
 
-  .logo-w {
-    width: 60%;
-    padding-top: 2px;
-  }
+  .mitsui-title img {
+    width: 100%;
+  } 
 
   /*  menu  */
   li {
@@ -384,6 +394,12 @@ p {
   nav {
     padding: 6px;
   }
+}
+
+@media (min-width: 1400px) { 
+  .mitsui-title img {
+    width: 100%;
+  } 
 }
 
 
@@ -477,6 +493,14 @@ p {
 
   z-index: 100;
 }
+
+@media (min-width: 1400px) { 
+  .mitsu-container {
+    padding: 4rem 40px 0;
+  }
+}
+
+
 
 @media (max-width: 1399.98px) { 
 

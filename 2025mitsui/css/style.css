@@ -532,6 +532,10 @@ p {
   .mitsu-container {
     padding: 4rem 40px 0;
   }
+
+   .mitsu-card-img img {
+     max-width: 111%;
+  } 
 }
 
 
@@ -561,7 +565,10 @@ p {
   .mitsu-card-img img{
     width: 100%;
   }
-  
+
+  .mitsu-box {
+    height: 105%;
+  }
 }
 
 
@@ -583,7 +590,10 @@ p {
 
   .mitsu-group {
     padding: 20px 0 50px; 
-    gap: 2rem;
+    gap: 3rem;
+  }
+   .mitsu-box {
+    height: 105%;
   }
 }
 

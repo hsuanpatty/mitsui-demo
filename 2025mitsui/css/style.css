@@ -549,6 +549,10 @@ p {
   .mitsu-container h3 {
     font: 18px GenKiMin-R;
   }
+
+  .mitsu-card-img img{
+    width: 100%;
+  }
   
 }
 
@@ -560,10 +564,6 @@ p {
 
   .mitsu-container h3 {
     font: 18px GenKiMin-R;
-  }
-
-  .mitsu-card-img img{
-    width: 100%;
   }
 
   .mitsu-box {

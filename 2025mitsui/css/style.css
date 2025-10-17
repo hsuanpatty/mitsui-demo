@@ -809,7 +809,7 @@ p {
   }
 
    .card-content h4 {
-    font: 14.5px  GenKiMin-R ;
+    font: 14px  GenKiMin-R ;
     letter-spacing: 0.02rem;
     line-height: 1.5rem;
   }
@@ -843,7 +843,7 @@ p {
   }
   
   .card-content {
-    padding: 1rem 1rem 3rem;
+    padding: 1rem 1rem 5rem;
   }
 }
 
@@ -858,6 +858,12 @@ p {
 
   .mitsu-container {
     padding: 4rem 10px 0;
+  }
+}
+
+@media (min-width: 1800px) { 
+  .card-content {
+    padding: 1rem 1rem 3rem;
   }
 }
 

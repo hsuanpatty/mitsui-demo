@@ -449,6 +449,7 @@ p {
     color: var(--blue);
     text-align: center;
     padding-top: 5px;
+    text-indent: 20px;
 }
 
 .mitsu-group {

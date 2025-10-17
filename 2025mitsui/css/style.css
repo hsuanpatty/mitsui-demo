@@ -956,6 +956,7 @@ p {
 
   .card-content h4 {
     font: 14px GenKiMin-R;
+    letter-spacing: 0;
 }
 
   .more-button .more-a {

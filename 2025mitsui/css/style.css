@@ -19,6 +19,7 @@
     --grey2:#3e414a;
     --darkgrey: #2e2f30;
     --red: #cc2f2f;
+    --red2: rgb(243, 67, 67);
 }
 
 a {
@@ -64,22 +65,36 @@ footer {
 
 @media (min-width: 768px) {
   .christmas-container,
-	.container,
 	.container-md,
 	.container-sm {
 		max-width: 800px;
+	}
+
+
+	.container {
+		max-width: 900px;
 	}
 }
 
 @media (min-width: 992px) {
   .christmas-container,
-	.container,
 	.container-lg,
 	.container-md,
 	.container-sm {
 		max-width: 960px;
 	}
+
+  .container{
+		max-width: 1030px;
+	}
 }
+
+@media (min-width: 1024px) {
+  .container{
+		max-width: 960px;
+	}
+}
+
 
 @media (min-width: 1200px) {
   .christmas-container,
@@ -567,10 +582,34 @@ p {
   }
 
   .mitsu-box {
-    height: 105%;
+    height: 100%;
   }
 }
 
+@media (max-width: 1199.98px) {
+  .card-d {
+      padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 1024.98px) { 
+  .card-d {
+      padding-top: 7px;
+      padding-bottom: 30px;
+  }
+
+  .card-content h1 {
+    font: 18px  GenKiMin-R;
+  }
+
+  .card-content h4 {
+        font: 14px GenKiMin-R;
+        margin-top: 0.5rem;
+        line-height: 1.5rem;
+  }
+  
+}
 
 
 @media (max-width: 575.98px) { 
@@ -598,7 +637,7 @@ p {
 }
 
 .card-content {
-  padding: 1rem 1rem 1.5rem;
+  padding: 1rem 1rem 3rem;
 
   h1 {
     font:  19px  GenKiMin-R ;
@@ -607,6 +646,18 @@ p {
     font-weight: 600;
     text-align: left;
     text-align:justify;
+  }
+
+  h4 {
+  
+    font:  16.8px  GenKiMin-R ;
+    color: var(--red2);
+    margin-top: 0.75rem;
+    font-weight: 500;
+    text-align: left;
+    text-align:justify;
+    letter-spacing: 0.02rem;
+
   }
 
   p {
@@ -674,7 +725,7 @@ p {
 }
 
 .card-d  h3 {
-  font: 17px  GenKiMin-R ;
+  font: 22px  GenKiMin-R ;
   color: var(--red); 
   margin-bottom: 0;
   font-weight: 600;
@@ -682,7 +733,7 @@ p {
 }
 
 .more-button .more-a {
-  font: 16px  GenKiMin-R ;
+  font: 16.5px  GenKiMin-R ;
   display: inline-block;
   padding: 0.5rem 1.2rem;
   border-radius: 10rem;
@@ -732,6 +783,10 @@ p {
     padding: 30px 0 70px;
     gap: 2rem;
   }
+
+  .mitsu-container {
+    padding: 4rem 10px 0;
+  }
 }
 
 @media (min-width: 992px) { 
@@ -740,20 +795,33 @@ p {
     gap: 1rem;
   }
 
+  .mitsu-container {
+    padding: 4rem 0 0;
+  }
+
   .card-content  h1 {
     font: 17px  GenKiMin-R;
     letter-spacing: -0.01rem;
   }
 
   .card-d h3 {
-    font: 16px GenKiMin-R;
+    font: 20px GenKiMin-R;
+  }
+
+   .card-content h4 {
+    font: 14.5px  GenKiMin-R ;
+    letter-spacing: 0.02rem;
+    line-height: 1.5rem;
+  }
+
+  .card-content {
+    padding: 1rem 1rem 3.8rem;
   }
 }
 
 @media (min-width: 1200px) { 
-    .mitsu-group {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+  .mitsu-group {
+    gap: 1.5rem;
   }
 
   .card-content  h1 {
@@ -762,16 +830,39 @@ p {
   }
 
    .card-d h3 {
-    font: 17px GenKiMin-R;
+    font: 22px GenKiMin-R;
+    font-weight: 600;
+  }
+
+  .card-content h4 {
+    font: 16px  GenKiMin-R ;
+  }
+
+  .mitsu-container {
+    padding: 4rem 0 0;
+  }
+  
+  .card-content {
+    padding: 1rem 1rem 3rem;
   }
 }
 
 @media (min-width: 1400px) { 
+  .card-content h4 {
+    font:  16.8px  GenKiMin-R ;
+  }
+
   .mitsu-group {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .mitsu-container {
+    padding: 4rem 10px 0;
   }
 }
 
+
+/* MX */
 @media (max-width: 1399.98px) { 
  .more-button .more-a {
     padding: 0.5rem 0.5rem;
@@ -780,8 +871,28 @@ p {
 }
 
 @media (max-width: 1299.98px) { 
-  .card-d {
-    padding-top: 3px;
+ .card-d {
+    padding-top: 7px;
+    padding-bottom: 20px;
+  }
+
+  .card-content p {
+    margin-top: 0.1rem;    
+  }
+
+   .more-button .more-a {
+    font-size: 16px;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .card-content {
+    padding: 1rem 0.5rem 3.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card-content p {
+    margin-top: 0.5rem;    
   }
 }
 
@@ -789,20 +900,60 @@ p {
   .card-d {
     padding-top: 6px;
   }
+
+  .mitsu-container {
+    padding: 1.5rem 60px 0;
+  }
+
+  .card-content {
+    padding: 1rem 1rem 0.5rem;
+  }
+}
+
+@media (max-width: 520.98px) { 
+
+  .mitsu-container {
+    padding: 1.5rem 10px 0;
+  }
+
+  .card-content {
+      padding: 1rem 0.8rem 2rem;
+  }
+
+  .card-d h3 {
+    font: 20px GenKiMin-R;
+    text-indent: 10px;
+  }
+
+  .card-content h4 {
+      font: 14.5px GenKiMin-R;
+      letter-spacing: 0.02rem;
+  }  
 }
 
 
-@media (max-width: 350.98px) { 
+@media (max-width: 360.98px) { 
   .card-d h3 {
-    font: 15px GenKiMin-R;
+    font: 18px GenKiMin-R;
   }
+
+   .card-content {
+      padding: 1rem 0.8rem 4rem;
+  }
+
+
+  .card-content h4 {
+    font: 14px GenKiMin-R;
+}
 
   .more-button .more-a {
     font-size: 14px;
   }
+
+  .mitsu-container {
+    padding: 1.5rem 4px 0;
 }
-
-
+}
 
 
 

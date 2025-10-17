@@ -866,10 +866,16 @@ p {
     padding: 1rem 1rem 3rem;
   }
 
+  .card-d h3 {
+    font: 25px GenKiMin-R;
+    text-indent: 10px;  
+  }
+
    .card-content h4 {
     font:  17px  GenKiMin-R ;
     letter-spacing: 0.05rem;
   }
+  
 }
 
 

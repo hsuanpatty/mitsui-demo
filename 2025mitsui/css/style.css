@@ -865,6 +865,10 @@ p {
   .card-content {
     padding: 1rem 1rem 3rem;
   }
+
+   .card-content h4 {
+    font:  18px  GenKiMin-R ;
+  }
 }
 
 
